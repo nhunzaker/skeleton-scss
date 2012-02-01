@@ -5,49 +5,54 @@ form, fieldset {
 		margin-bottom: 20px; 
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
+input[type="number"] {
+    -webkit-apperance: none;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+
+		background: #fff; 
 		border: 1px solid #ccc;
-		padding: 6px 4px;
-		outline: none;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
-		margin: 0;
-		width: 210px;
+    display: block;
+		font: 13px $sans-serif;
+		margin: 0 0 20px;
 		max-width: 100%;
-		display: block;
-		margin-bottom: 20px;
-		background: #fff; }
+		outline: none;
+		padding: 6px 4px;
+		width: 210px;
+    
+    @include border-radius(2px);
+    
+    &:focus {
+	      border: 1px solid #aaa;
+ 		    color: #444;
+
+		    @include box-shadow( 0 0 3px rgba(0,0,0, 0.2)); 
+    }
+}
+
 select {
-		padding: 0; }
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-		border: 1px solid #aaa;
- 		color: #444;
- 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+		padding: 0; 
+    width: 220px;
+}
+
+
 textarea {
-		min-height: 60px; }
-label,
-legend {
+		min-height: 60px; 
+}
+label, legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px;  }
-select {
-		width: 220px; }
+		font-size: 13px;  
+}
+
 input[type="checkbox"] {
-		display: inline; }
-label span,
-legend span {
+		display: inline; 
+}
+
+label span, legend span {
 		font-weight: normal;
 		font-size: 13px;
-		color: #444; }
+		color: #444; 
+}

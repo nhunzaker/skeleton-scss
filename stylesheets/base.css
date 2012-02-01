@@ -301,7 +301,7 @@ img.scale-with-grid {
   height: auto;
 }
 
-/* line 14, ../sass/partials/_buttons.scss */
+/* line 14, /Users/nate/Sites/skeleton/sass/partials/_buttons.scss */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   background: #eee;
   /* Old browsers */
@@ -332,11 +332,11 @@ img.scale-with-grid {
   -khtml-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 7, ../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+/* line 7, /Users/nate/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   *display: inline;
 }
-/* line 30, ../sass/partials/_buttons.scss */
+/* line 31, /Users/nate/Sites/skeleton/sass/partials/_buttons.scss */
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
   color: #222;
   background: #ddd;
@@ -350,7 +350,7 @@ img.scale-with-grid {
   border: 1px solid #888;
   border-color: #aaa #888 #888 #aaa;
 }
-/* line 38, ../sass/partials/_buttons.scss */
+/* line 39, /Users/nate/Sites/skeleton/sass/partials/_buttons.scss */
 .button:active, button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
   background: #ccc;
   /* Old browsers */
@@ -362,7 +362,7 @@ img.scale-with-grid {
   background: -ms-linear-gradient(rgba(255, 255, 255, 0.35), rgba(10, 10, 10, 0.4)), #cccccc;
   background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(10, 10, 10, 0.4)), #cccccc;
 }
-/* line 44, ../sass/partials/_buttons.scss */
+/* line 45, /Users/nate/Sites/skeleton/sass/partials/_buttons.scss */
 .button.full-width, button.full-width, input[type="submit"].full-width, input[type="reset"].full-width, input[type="button"].full-width {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -371,14 +371,14 @@ img.scale-with-grid {
 }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 54, ../sass/partials/_buttons.scss */
+/* line 55, /Users/nate/Sites/skeleton/sass/partials/_buttons.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 4, ../sass/partials/_tabs.scss */
+/* line 4, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs {
   display: block;
   margin: 0 0 20px 0;
@@ -386,7 +386,7 @@ ul.tabs {
   border-bottom: solid 1px #ddd;
 }
 
-/* line 9, ../sass/partials/_tabs.scss */
+/* line 9, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li {
   display: block;
   width: auto;
@@ -396,7 +396,7 @@ ul.tabs li {
   margin-bottom: 0;
 }
 
-/* line 16, ../sass/partials/_tabs.scss */
+/* line 16, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li a {
   display: block;
   text-decoration: none;
@@ -411,7 +411,7 @@ ul.tabs li a {
   font-size: 13px;
 }
 
-/* line 28, ../sass/partials/_tabs.scss */
+/* line 28, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li a.active {
   background: #fff;
   height: 30px;
@@ -429,12 +429,12 @@ ul.tabs li a.active {
   border-top-right-radius: 2px;
 }
 
-/* line 43, ../sass/partials/_tabs.scss */
+/* line 43, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li:first-child a.active {
   margin-left: 0;
 }
 
-/* line 45, ../sass/partials/_tabs.scss */
+/* line 45, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li:first-child a {
   border-width: 1px 1px 0 1px;
   -moz-border-radius-topleft: 2px;
@@ -442,31 +442,31 @@ ul.tabs li:first-child a {
   border-top-left-radius: 2px;
 }
 
-/* line 50, ../sass/partials/_tabs.scss */
+/* line 50, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs li:last-child a {
   -moz-border-radius-topright: 2px;
   -webkit-border-top-right-radius: 2px;
   border-top-right-radius: 2px;
 }
 
-/* line 55, ../sass/partials/_tabs.scss */
+/* line 55, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs-content {
   margin: 0;
   display: block;
 }
 
-/* line 56, ../sass/partials/_tabs.scss */
+/* line 56, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs-content > li {
   display: none;
 }
 
-/* line 57, ../sass/partials/_tabs.scss */
+/* line 57, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs-content > li.active {
   display: block;
 }
 
 /* Clearfixing tabs for beautiful stacking */
-/* line 61, ../sass/partials/_tabs.scss */
+/* line 61, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs:before,
 ul.tabs:after {
   content: '\0020';
@@ -477,102 +477,96 @@ ul.tabs:after {
   height: 0;
 }
 
-/* line 68, ../sass/partials/_tabs.scss */
+/* line 68, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs:after {
   clear: both;
 }
 
-/* line 70, ../sass/partials/_tabs.scss */
+/* line 70, /Users/nate/Sites/skeleton/sass/partials/_tabs.scss */
 ul.tabs {
   zoom: 1;
 }
 
-/* line 4, ../sass/partials/_forms.scss */
+/* line 4, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
 form, fieldset {
   margin-bottom: 20px;
 }
 
-/* line 12, ../sass/partials/_forms.scss */
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
+/* line 8, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+input[type="number"] {
+  -webkit-apperance: none;
+}
+
+/* line 12, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+  background: #fff;
   border: 1px solid #ccc;
-  padding: 6px 4px;
+  color: #777;
+  display: block;
+  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 20px;
+  max-width: 100%;
   outline: none;
+  padding: 6px 4px;
+  width: 210px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
   border-radius: 2px;
-  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777;
-  margin: 0;
-  width: 210px;
-  max-width: 100%;
-  display: block;
-  margin-bottom: 20px;
-  background: #fff;
 }
-
-/* line 27, ../sass/partials/_forms.scss */
-select {
-  padding: 0;
-}
-
-/* line 32, ../sass/partials/_forms.scss */
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
+/* line 27, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, textarea:focus, select:focus {
   border: 1px solid #aaa;
   color: #444;
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 38, ../sass/partials/_forms.scss */
+/* line 35, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+select {
+  padding: 0;
+  width: 220px;
+}
+
+/* line 41, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
 textarea {
   min-height: 60px;
 }
 
-/* line 41, ../sass/partials/_forms.scss */
-label,
-legend {
+/* line 44, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+label, legend {
   display: block;
   font-weight: bold;
   font-size: 13px;
 }
 
-/* line 45, ../sass/partials/_forms.scss */
-select {
-  width: 220px;
-}
-
-/* line 47, ../sass/partials/_forms.scss */
+/* line 50, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
 input[type="checkbox"] {
   display: inline;
 }
 
-/* line 50, ../sass/partials/_forms.scss */
-label span,
-legend span {
+/* line 54, /Users/nate/Sites/skeleton/sass/partials/_forms.scss */
+label span, legend span {
   font-weight: normal;
   font-size: 13px;
   color: #444;
 }
 
-/* line 4, ../sass/partials/_misc.scss */
+/* line 4, /Users/nate/Sites/skeleton/sass/partials/_misc.scss */
 .remove-bottom {
   margin-bottom: 0 !important;
 }
 
-/* line 5, ../sass/partials/_misc.scss */
+/* line 5, /Users/nate/Sites/skeleton/sass/partials/_misc.scss */
 .half-bottom {
   margin-bottom: 10px !important;
 }
 
-/* line 6, ../sass/partials/_misc.scss */
+/* line 6, /Users/nate/Sites/skeleton/sass/partials/_misc.scss */
 .add-bottom {
   margin-bottom: 20px !important;
 }
