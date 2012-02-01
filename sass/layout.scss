@@ -20,6 +20,14 @@
 /* #Page Styles
 ================================================== */
 
+body {
+    padding-top: 60px;
+}
+
+.container {
+//    @include grid-background();
+}
+
 /* #Media Queries
 ================================================== */
 

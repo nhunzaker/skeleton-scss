@@ -1,71 +1,24 @@
-/*
- * Skeleton V1.1
- * Copyright 2011, Dave Gamache
- * www.getskeleton.com
- * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 8/17/2011
- */
+// Grid
+// ================================================== //
 
-
-/* Table of Contents
-   ==================================================
-   #Base 960 Grid
-   #Tablet (Portrait)
-   #Mobile (Portrait)
-   #Mobile (Landscape)
-   #Clearing */
+// Table of Contents
+// -------------------------------------------------- //
+//
+// Base 960 Grid
+// Tablet (Portrait)
+// Mobile (Portrait)
+// Mobile (Landscape)
+// Clearing
 
 // -------------------------------------------------- //
 
-$column : 40;
-$gutter : 20;
-$offset : $column + $gutter;
+// #Base 960 Grid
+// ================================================== //
 
-$width  : 960px;
+.container                           { position: relative; width: $grid-width; margin: 0 auto; padding: 0; }
+.row                                 { margin-bottom: 20px; }
 
-// -------------------------------------------------- //
-
-@mixin alpha {
-    margin-left: 0;
-}
-
-@mixin omega {
-    margin-right: 0;
-}
-
-@mixin grid($cols:1, $pos:"") {
-    $base: $column * $cols;
-    width: $base + (($cols - 1px) * $gutter);
-    
-    float: left; 
-    display: inline; 
-    
-    margin: 0 10px 20px 10px;
-
-    @if ($pos == "alpha") {
-        @include alpha();
-    }
-
-    @if ($pos == "omega") {
-        @include omega();
-    }
-    
-}
-
-@mixin offset($cols:1) {
-    padding-left: ($cols * $offset) + 0px;
-}
-
-
-/* #Base 960 Grid
-   ================================================== */
-
-.container                                  { position: relative; width: $width; margin: 0 auto; padding: 0; }
-.row                                        { margin-bottom: 20px; }
-
-
-/* Base Grid */
+// Base Grid
 .container {
 
     .one.column,
@@ -86,10 +39,10 @@ $width  : 960px;
     .fifteen.columns                 { @include grid(15); }
     .sixteen.columns                 { @include grid(16); }
 
-    .one-third.column                { @extend .one.column; width: (($width - $offset) / 3); }
-    .two-thirds.column               { @extend .one.column; width: (($width - $offset) / 3) * 2; }
+    .one-third.column                { @extend .one.column; width: (($grid-width - $grid-offset) / 3); }
+    .two-thirds.column               { @extend .one.column; width: (($grid-width - $grid-offset) / 3) * 2; }
 
-    /* Offsets */
+    // Offsets
     .offset-by-one                   { @include offset(1); }
     .offset-by-two                   { @include offset(2); }
     .offset-by-three                 { @include offset(3); }
@@ -106,11 +59,11 @@ $width  : 960px;
     .offset-by-fourteen              { @include offset(14); }
     .offset-by-fifteen               { @include offset(15); }
 
-}
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha    { margin-left: 0; }
+    .column.omega, .columns.omega    { margin-right: 0; }
 
-/* Nested Column Classes */
-.column.alpha, .columns.alpha               { margin-left: 0; }
-.column.omega, .columns.omega               { margin-right: 0; }
+}
 
 
 /* #Tablet (Portrait)
